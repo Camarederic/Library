@@ -411,10 +411,98 @@ header {
   left: 0;
 }
 
-.about p{
+.about p {
   width: 50rem;
   font-size: 1.4rem;
   color: #fff;
   line-height: 3.5rem;
   margin-bottom: 4rem;
+}
+
+.books {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10rem 0 15rem 0;
+}
+
+.books-content{
+  text-align: center;
+}
+
+.books-top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+.books-header {
+  text-align: right;
+  margin-right: 10rem;
+}
+
+.books-header .section-border::after {
+  right: 0;
+  left: auto;
+}
+
+.books-top .section-num span {
+  background-image: url(images/text-bg-3.jpg);
+  background-position: 50% 75%;
+}
+
+.books-list {
+  display: flex;
+}
+
+.book {
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 6rem;
+  text-align: center;
+}
+
+.book img {
+  width: 30rem;
+  height: auto;
+  filter: grayscale(100%);
+  border-radius: 1rem;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+  transition: filter 1s;
+}
+
+.book img:hover {
+  filter: grayscale(0);
+}
+
+.book-name {
+  font-family: "Kaushan Script", cursive;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  color: #32b0ce;
+  letter-spacing: 0.1rem;
+  margin: 3rem 0;
+}
+
+.book-line {
+  width: 10rem;
+  height: 0.1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  margin-bottom: 3rem;
+}
+
+.book-author{
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.3rem;
+}
+
+.books-content .main-btn{
+
 }
