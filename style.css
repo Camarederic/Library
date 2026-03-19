@@ -427,7 +427,7 @@ header {
   padding: 10rem 0 15rem 0;
 }
 
-.books-content{
+.books-content {
   text-align: center;
 }
 
@@ -496,13 +496,181 @@ header {
   margin-bottom: 3rem;
 }
 
-.book-author{
+.book-author {
   font-size: 2rem;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.3rem;
 }
 
-.books-content .main-btn{
+.books-content .main-btn {
+  margin-top: 10rem;
+}
 
+.testimonials {
+  width: 100%;
+  height: 160vh;
+  background-color: #202020;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10rem 0 15rem 0;
+  position: relative;
+}
+
+.testimonials-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.testimonials-top .section-num {
+  margin-right: 10rem;
+}
+
+.testimonials-top .section-num span {
+  background-image: url(images/text-bg-4.jpg);
+}
+
+.feedback {
+  width: 50%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.feedback-top {
+  display: flex;
+  align-items: center;
+  padding-left: 7rem;
+  margin-bottom: 5rem;
+}
+
+.feedback-top img {
+  width: 30rem;
+  height: 30rem;
+  object-fit: cover;
+  border-radius: 2rem;
+  border: 0.8rem solid #202020;
+  margin-right: 3rem;
+  filter: grayscale(100%);
+  cursor: pointer;
+  transition: filter 1s;
+  z-index: 1;
+}
+
+.feedback-top img:hover {
+  filter: grayscale(0);
+}
+
+.feedback-heading {
+  display: flex;
+  width: 50%;
+  text-align: center;
+}
+
+.feedback-heading h1 {
+  font-size: 7rem;
+  color: #fff;
+}
+
+.feedback-heading h1 span {
+  font-family: "Kaushan Script", cursive;
+  font-size: 8rem;
+  letter-spacing: 0.2rem;
+  color: #32b0ce;
+}
+
+.quote-bg {
+  width: 35rem;
+  height: 40rem;
+  background-color: #32b0ce;
+  position: absolute;
+  top: 26rem;
+  left: 4.5rem;
+  border-radius: 3rem;
+}
+
+.quote-bg::after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-left: 4rem solid transparent;
+  border-right: 4rem solid transparent;
+  border-bottom: 4rem solid #32b0ce;
+  bottom: -3rem;
+  left: 1rem;
+  transform: rotate(-45deg);
+}
+
+.quote {
+  width: 80rem;
+  height: 28rem;
+  background-color: #282828;
+  border-radius: 3rem;
+  position: absolute;
+  top: 33rem;
+  left: 8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.quote::after {
+  content: "";
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-left: 4rem solid transparent;
+  border-right: 4rem solid transparent;
+  border-bottom: 4rem solid #282828;
+  bottom: -3rem;
+  left: 0rem;
+  transform: rotate(-45deg);
+}
+
+.quote-header {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.quote-header i {
+  font-size: 8rem;
+  color: #32b0ce;
+}
+
+.quote-header h1 {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 0.2rem;
+  padding: 0 10rem;
+}
+
+.quote-body p {
+  width: 50rem;
+  font-size: 1.2rem;
+  color: #ccc;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  line-height: 2.5rem;
+}
+
+.quote-stars i {
+  font-size: 1.8rem;
+  color: #32b0ce;
+  margin: 0 0.5rem;
+}
+
+.testimonials .main-btn{
+  position: absolute;
+  left: 50%;
+  bottom: 15rem;
+  transform: translateX(-50%);
 }
