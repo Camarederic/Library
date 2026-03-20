@@ -385,6 +385,10 @@ header {
   text-transform: uppercase;
   letter-spacing: 0.3rem;
   color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .about-content-right {
