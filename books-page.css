@@ -19,3 +19,11 @@
   justify-content: center;
   flex-wrap: wrap;
 }
+
+/* Responsive */
+@media (max-width: 1600px) {
+  .book {
+    margin: 6rem 3rem;
+  }
+}
+/* End of Responsive */
